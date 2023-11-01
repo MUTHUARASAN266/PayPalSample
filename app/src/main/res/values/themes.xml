@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PayPalSample" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@android:color/holo_orange_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_blue_bright</item>
+        <item name="colorAccent">@android:color/holo_green_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.PayPalSample" parent="Base.Theme.PayPalSample" />
+
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@android:color/holo_orange_dark</item>
+        <item name="colorControlActivated">@android:color/holo_blue_bright</item>
+        <item name="colorControlHighlight">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="EditTextWithRoundedBackground">
+        <item name="android:background">@drawable/rounded_edittext_background</item> <!-- Use the custom background -->
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="PayPalButtonStyle">
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources>
